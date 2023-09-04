@@ -1,8 +1,10 @@
 ---
-title: cass deckard
+title: home
 layout: home
 ---
 
 <!-- TODO: Replace all the content below with you own -->
 
-Welcome to my **web page**.
+welcome to my **web page**.
+
+here i will post things from time to time.

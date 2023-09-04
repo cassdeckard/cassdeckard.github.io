@@ -1,17 +1,16 @@
 ### Site metadata
 
 # Don't make the title longer than this, otherwise it gets covered in mobile view.
-title: Cass Deckard
-description: person
+title: cass deckard
+description: cass deckard dot github dot io
 
-email:
-twitter_username:
 github_username: cassdeckard
 rss: RSS
 
 ### Build settings
 
 url: https://cassdeckard.github.io
+repository_name: /cassdeckard.github.io
 baseurl: /
 
 permalink: pretty
@@ -23,9 +22,7 @@ plugins:
   - jekyll-sitemap
 
 collections:
-  tools:
-    output: true
-  languages:
+  projects:
     output: true
 
 defaults:

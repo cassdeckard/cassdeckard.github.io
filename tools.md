@@ -1,23 +1,23 @@
 ---
-title: Tools
-description: What you need to make a static site that runs locally and on GitHub Pages
+title: projects
+description: things i have been working on
 ---
 
 This page showcases how to list items in a specific collection.
 
 <ul>
-    {% for tool in site.tools %}
+    {% for project in site.projects %}
         <li>
             <h2>
-                <a href="{{ tool.url | relative_url }}">
-                    {{ tool.title }}
+                <a href="{{ project.url | relative_url }}">
+                    {{ project.title }}
                 </a>
             </h2>
 
             <p>
-                <i>{{ tool.description }}</i>
+                <i>{{ project.description }}</i>
             </p>
-            <p>{{ tool.excerpt }}</p>
+            <p>{{ project.excerpt }}</p>
         </li>
     {% endfor %}
 </ul>

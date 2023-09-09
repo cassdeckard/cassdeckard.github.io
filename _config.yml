@@ -5,6 +5,7 @@ title: cass deckard
 description: cass deckard dot github dot io
 
 github_username: cassdeckard
+linkedin_username: cass-deckard
 rss: RSS
 
 ### Build settings
@@ -16,6 +17,9 @@ baseurl: /
 permalink: pretty
 
 theme: minima
+
+minima:
+  skin: dark
 
 plugins:
   - jekyll-feed

@@ -16,7 +16,7 @@ baseurl: /
 
 permalink: pretty
 
-theme: minima
+remote_theme: jekyll/minima
 
 minima:
   skin: dark
@@ -24,6 +24,7 @@ minima:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 collections:
   projects:
